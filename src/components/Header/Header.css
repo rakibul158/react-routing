@@ -1,0 +1,37 @@
+.nav-container{
+    display: flex;
+}
+.custom-navbar{
+    background-color: orange;
+    color: #000;
+}
+.l-side{
+    text-align: left;
+}
+.l-side h4 {
+    padding-top: 12px;
+}
+.r-side{
+    text-align: right;
+}
+.custom-ul {
+    text-decoration: none;
+    margin-top: 15px;
+}
+.custom-ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.custom-ul li a{
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding:10px;
+}
+
+.custom-ul li a:hover{
+    text-decoration: none;
+    background-color: goldenrod;
+    color: #fff;
+}
